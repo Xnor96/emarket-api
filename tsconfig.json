@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "lib": [
+            "ES2020"
+        ],
+        "allowJs": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "module": "CommonJS"
+    },
+    "include": [
+        "src/**/*",
+        "src/**/*.js",
+        "node_modules/dayjs/plugin/utc.d.ts"
+    ],
+}
